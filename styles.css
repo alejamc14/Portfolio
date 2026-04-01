@@ -9,3 +9,14 @@ a{
     color: #E834F9;
     text-decoration: none;
 }
+
+* { box-sizing: border-box; }
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+
+}
