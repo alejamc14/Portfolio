@@ -95,3 +95,20 @@ ul {
 .nav-links a {
     margin: 30px;
 }
+
+@media (max-width: 600px) {
+body {
+padding: 10px;
+}
+header {
+padding: 15px;
+}
+.nav-links {
+flex-direction: column;
+gap: 10px;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+}
