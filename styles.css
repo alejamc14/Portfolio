@@ -1,21 +1,22 @@
 h1{
-    color: #E308F7;
+    color: #FFDFD6;
 }
  p{
     font-size: 18px;
     color: #333;
 }
 a{
-    color: #E834F9;
+    color: #FFDFD6;
     text-decoration: none;
-    margin: 20px;
 }
 
 img {
-    width: 300px;
+    width: 150px;
     height: auto;
-    padding: 20px;
-    margin-top: 30px;
+    border-radius: 50%;   
+    object-fit: cover;
+    border: 3px solid #FFDFD6;
+   
 }
 
 * { box-sizing: border-box; }
@@ -37,9 +38,12 @@ line-height: 1.6;
 }
 
 header {
-background-color: #2c3e50;
+background-color: #694F8E;
 color: white;
-padding: 30px;
+padding: 20px 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 footer {
@@ -47,4 +51,47 @@ background-color: #2c3e50;
 color: white;
 padding: 20px;
 text-align: center;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+
+}
+.header-foto {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+ul {
+    display: flex;
+
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 0;        /* quita el padding por defecto del ul */
+    list-style: none;  /* esto quita los puntos */
+}
+
+.tarjeta-proyecto {
+    background-color: #B692C2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 16px;
+    flex: 1;
+    min-width: 160px;
+}
+
+.tarjeta-proyecto strong {
+    display: block;    /* hace que el título ocupe su propia línea */
+    margin-bottom: 6px;
+}
+
+.nav-links a {
+    margin: 30px;
 }
